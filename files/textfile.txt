@@ -1,0 +1,4 @@
+random: 3432424, reandom2: -------, email = ashish@gmail.com
+
+
+CUSTOMER_ID: 123, id:232,phoneno: 9292929092 email-aaa@gsds.com
