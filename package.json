@@ -8,5 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "compromise": "^14.9.0",
+    "spacy": "^0.0.4"
+  }
 }

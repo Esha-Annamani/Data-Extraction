@@ -2,6 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 const { extractData } = require('./utils/DataExtract')
 
+
 const readAndExtractData = (filePath) => {
     const fileStream = fs.createReadStream(filePath);
     const rl = readline.createInterface({
@@ -13,7 +14,9 @@ const readAndExtractData = (filePath) => {
         ids: [],
         phoneNumbers: [],
         emails: [],
-        datesOfBirth: []
+        datesOfBirth: [],
+        personNames: [],
+        countryNames: []
     };
 
     rl.on('line', (line) => {
